@@ -6,14 +6,24 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd  gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "env-cmd": "^9.0.3",
     "gatsby": "^2.13.65",
+    "gatsby-plugin-sass": "^2.1.8",
+    "gatsby-plugin-sharp": "^2.2.12",
+    "gatsby-remark-images": "^3.1.12",
+    "gatsby-remark-relative-images": "^0.2.3",
+    "gatsby-source-contentful": "^2.1.20",
+    "gatsby-source-filesystem": "^2.1.9",
+    "gatsby-transformer-remark": "^2.6.14",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
