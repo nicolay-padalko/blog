@@ -1,4 +1,4 @@
 Estudo basico Gatsby
-Acesso a blog contenful via GraphQl
+Acesso a blog https://www.contentful.com/ via GraphQl
 
 ![tela](/images/blog.jpg)
